@@ -17,6 +17,9 @@ router.get('/', (req, res) => {
       res.status(404).json({message: "Category could not be found"});
       return;
     }
+    else{
+      res.json(catRoute);
+    }
   })
 });
 
@@ -25,7 +28,7 @@ router.get('/:id', (req, res) => {
   // be sure to include its associated Products
   Category.findOne({
     where: {
-      id: req.param.id
+      id: req.params.id
     },
     include: {
       model: Product,
