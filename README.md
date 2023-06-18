@@ -20,6 +20,7 @@ The following gifs demonstrate the usage of Postman to test the routes and endpo
 ![tag_gif](./Develop/assets/tag_gif.gif)
 
 Github repository link: https://github.com/jackckendrick/shopster
+
 Youtube video shopster tutorial: https://youtu.be/gionnwSqCTU
 
 # License
